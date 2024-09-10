@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="../icons/patinha.png" type="image/x-icon">
+  <title>PetShop - Produtos e Serviços</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/produtos-e-servicos.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="../icons/patinha.png" alt="Imagem de uma patinha de cachorro">
+      <a href="/index.html">
+        <span>PetShop</span>
+      </a>
+    </div>
+
+    <nav class="links-servicos">
+      <ul>
+        <li>
+          <a href="./produtos-e-servicos.html">Produtos e Serviços</a>
+        </li>
+        <li>
+          <a href="./cadastro-pet.html">Cadastrar seu Pet</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="formulario">
+      <form>
+        <input id="search" type="text" placeholder="Pesquisar">
+        <button type="submit">
+          <img src="../icons/pesquisa.png" alt="Ícone de pesquisa">
+        </button>
+      </form>
+    </div>
+
+    <nav class="login-carrinho">
+      <ul>
+        <li>
+          <a href="./login.html">
+            <span>Login</span>
+            <img src="../icons/login.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../icons/carrinho.png" alt="Ícone de carrinho de compra">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="titulo">Produtos e Serviços</h1>
+
+    <!-- Sessão Produtos e Serviços -->
+    <section class="container-produtos">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/cachorro-tomando-banho.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Banho</h5>
+              <h5 class="card-title">R$ 70,00</h5>
+              <p class="card-text">Seu peludo merece um momento de relaxamento e cuidado! Nosso serviço de banho para
+                cães oferece uma experiência completa, desde a lavagem suave com produtos de alta qualidade até a
+                secagem com todo o carinho. Deixe seu cãozinho limpo, perfumado e com a pelagem brilhante. Garantimos um
+                ambiente tranquilo e seguro, onde seu amigo de quatro patas se sentirá confortável e feliz durante todo
+                o processo.</p>
+              <a href="./agendamento.html">Agendar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/ilustracao-de-pet-shop-gato.png" class="card-img-top img-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ração XYZ</h5>
+              <h5 class="card-title">R$ 50, 00</h5>
+              <p class="card-text">Cuide da saúde e bem-estar do seu gato com nossa ração premium! Formulada com
+                ingredientes selecionados, essa ração oferece a nutrição balanceada que o seu felino precisa,
+                proporcionando energia, vitalidade e uma pelagem saudável. Ideal para todas as fases da vida, nossa
+                ração é saborosa e irresistível, garantindo que seu gato se alimente com prazer todos os dias.</p>
+              <span class="produto-racao" href="./produtos-e-servicos.html">
+                Indisponível</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/comida-de-cao.png" class="card-img-top img-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ossinho Dog</h5>
+              <h5 class="card-title">R$ 20,00</h5>
+              <p class="card-text">Presenteie seu cão com o sabor irresistível dos nossos petiscos em formato de
+                ossinho! Feitos com ingredientes naturais e saudáveis, esses petiscos são perfeitos para recompensar seu
+                amigo de quatro patas ou simplesmente alegrar o dia dele. Além de saborosos, eles ajudam na higiene
+                bucal, fortalecendo os dentes e proporcionando momentos de diversão e satisfação para o seu cachorro.
+              </p>
+              <a href="./produtos-e-servicos.html">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/cachorro-fazendo-tosa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tosa</h5>
+              <h5 class="card-title">R$ 60,00</h5>
+              <p class="card-text">Dê ao seu cão o visual perfeito com nosso serviço de tosa profissional! Seja uma tosa
+                higiênica ou estilizada, nossos especialistas cuidam de cada detalhe para garantir que seu pet fique
+                lindo e confortável. Usamos ferramentas de alta qualidade e técnicas seguras para deixar a pelagem do
+                seu cachorro impecável, além de cuidar das patinhas e ouvidos com todo o carinho que ele merece.</p>
+              <a href="./agendamento.html">Agendar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <span>&#169;</span>
+      <p>2024 PetShop</p>
+    </div>
+
+    <div class="footer-content">
+      <img src="../icons/x.png" alt="">
+      <img src="../icons/instagram.png" alt="">
+      <img src="../icons/linkedin.png" alt="">
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+</body>
+</html>

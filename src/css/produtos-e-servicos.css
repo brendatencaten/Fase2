@@ -1,0 +1,144 @@
+body {
+  background-color: #f2f2e9;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.cabecalho {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.logo img {
+  width: 1.3rem;
+  object-fit: cover;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #2e97f2;
+}
+
+.links-servicos ul,
+li,
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
+  list-style: none;
+}
+
+.links-servicos a:hover {
+  text-decoration: underline;
+}
+
+.formulario {
+  height: 2.0725rem;
+  width: 18.06rem;
+  background-color: #e3e0dd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1rem;
+  border-radius: 0.9rem;
+}
+
+.formulario form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.formulario input,
+button {
+  background-color: #e3e0dd;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+}
+
+.login-carrinho ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+}
+
+.login-carrinho a:hover {
+  text-decoration: underline;
+}
+
+.titulo {
+  margin: 5rem 0 0 5rem;
+  font-size: 2rem;
+  color: #2e97f2;
+}
+
+.container-produtos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90;
+  margin: 10rem 5rem;
+}
+
+.container-produtos a {
+  margin-top: 2rem;
+  color: #2e97f2;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.produto-racao {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.container-produtos a:hover {
+  border: 1px solid #2e97f2;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14rem;
+}
+
+.footer {
+  margin: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  gap: 0.9rem;
+}

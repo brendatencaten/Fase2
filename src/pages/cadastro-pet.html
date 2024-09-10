@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="../icons/patinha.png" type="image/x-icon">
+  <title>PetShop - Cadastro Pet</title>
+  <link rel="stylesheet" href="../css/autenticacao.css">
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="../icons/patinha.png" alt="Imagem de uma patinha de cachorro">
+      <a href="/index.html">
+        <span>PetShop</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <div class="form-container">
+        <img src="../img/ilustracao-desenhada.png" alt="Logo">
+        <h2>CADASTRAR SEU PET:</h2>
+        <form id="cadastro-form" action="#" method="POST">
+          <fieldset>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="tipo">Tipo:</label>
+              <input type="text" id="tipo" name="tipo" required>
+            </div>
+            <div class="form-group">
+              <label for="raca">Raça:</label>
+              <input type="text" id="raca" name="raca" required>
+            </div>
+            <div class="form-group">
+              <label for="temperamento">Temperamento:</label>
+              <input type="text" id="temperamento" name="temperamento" required>
+            </div>
+          </fieldset>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <span>&#169;</span>
+      <p>2024 PetShop</p>
+    </div>
+
+    <div class="footer-content">
+      <img src="../icons/x.png" alt="">
+      <img src="../icons/instagram.png" alt="">
+      <img src="../icons/linkedin.png" alt="">
+    </div>
+  </footer>
+
+  <script src="../js/cadastro-pet.js"></script>
+</body>
+</html>
